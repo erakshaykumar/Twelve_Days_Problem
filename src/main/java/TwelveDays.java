@@ -1,4 +1,14 @@
+/**
+ * @purpose : Twelve Days Problem,Where I Want To Get The Lyrics Of Whole Rhyme As An Output
+ * @author : Akshay kumar
+ */
 class TwelveDays {
+
+    /**
+     * @purose To Get The Desired Lyrics Of The Rhyme, I Created A Method For Describing Rhyme By Using Switch Case
+     * @param rhymeNumber
+     * @return Answer That Gives The Lyrics Of Rhyme
+     */
     static String rhyme(int rhymeNumber) {
         switch(rhymeNumber){
             case 1:
@@ -29,6 +39,12 @@ class TwelveDays {
         return "";
     }
 
+    /**
+     * @purpose To Loop The Rhyme From Start To End By Using "For" Loop In The Method And Also Check For The Answer
+     * @param startRhyme
+     * @param endRhyme
+     * @return Answer That Gives The Lyrics Of Rhyme
+     */
     static String rhymes(int startRhyme, int endRhyme) {
         String ans = "";
 
@@ -41,10 +57,19 @@ class TwelveDays {
         return ans;
     }
 
+    /**
+     * @purpose To Get The Lyrics Of The Rhyme
+     * @return Rhyme 1 To Rhyme 12
+     */
+
     static String sing() {
         return rhymes(1,12);
     }
 
+    /**
+     * @purpose To Print The Lyrics Of The Whole Rhyme As Desired
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println(TwelveDays.sing());
     }

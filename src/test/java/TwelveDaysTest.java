@@ -1,3 +1,8 @@
+/**
+ * @purpose : Twelve Days Problem,Where I Want To Check The Test Cases For The Lyrics Of Whole Rhyme
+ * @author : Akshay kumar
+ */
+
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -7,11 +12,17 @@ import static org.junit.Assert.assertEquals;
 public class TwelveDaysTest {
     private TwelveDays twelveDays;
 
+    /**
+     * @purpose To Set Up Twelve Days Object
+     */
     @Before
     public void setup() {
         twelveDays = new TwelveDays();
     }
 
+    /**
+     * @purpose To Check the Expected Rhyme One Is Equals to Twelve Days Class Rhyme Method Case 1 Or Not
+     */
     @Test
     public void testRhymeOne() {
         String expectedRhymeOne = "On the first day of Christmas my true love gave to me: " +
@@ -19,6 +30,9 @@ public class TwelveDaysTest {
         assertEquals(expectedRhymeOne, twelveDays.rhyme(1));
     }
 
+    /**
+     * @purpose To Check the Expected Rhyme Two Is Equals to Twelve Days Class Rhyme Method Case 2 Or Not
+     */
     @Ignore("Remove to run test")
     @Test
     public void testRhymeTwo() {
@@ -27,6 +41,9 @@ public class TwelveDaysTest {
         assertEquals(expectedRhymeTwo, twelveDays.rhyme(2));
     }
 
+    /**
+     * @purpose To Check the Expected Rhyme Three Is Equals to Twelve Days Class Rhyme Method Case 3 Or Not
+     */
     @Ignore("Remove to run test")
     @Test
     public void testRhymeThree() {
@@ -35,6 +52,9 @@ public class TwelveDaysTest {
         assertEquals(expectedRhymeThree, twelveDays.rhyme(3));
     }
 
+    /**
+     * @purpose To Check the Expected Rhyme Four Is Equals to Twelve Days Class Rhyme Method Case 4 Or Not
+     */
     @Ignore("Remove to run test")
     @Test
     public void testRhymeFour() {
@@ -43,6 +63,9 @@ public class TwelveDaysTest {
         assertEquals(expectedRhymeFour, twelveDays.rhyme(4));
     }
 
+    /**
+     * @purpose To Check the Expected Rhyme Five Is Equals to Twelve Days Class Rhyme Method Case 5 Or Not
+     */
     @Ignore("Remove to run test")
     @Test
     public void testRhymeFive() {
@@ -51,6 +74,9 @@ public class TwelveDaysTest {
         assertEquals(expectedRhymeFive, twelveDays.rhyme(5));
     }
 
+    /**
+     * @purpose To Check the Expected Rhyme Six Is Equals to Twelve Days Class Rhyme Method Case 6 Or Not
+     */
     @Ignore("Remove to run test")
     @Test
     public void testRhymeSix() {
@@ -60,6 +86,9 @@ public class TwelveDaysTest {
         assertEquals(expectedRhymeSix, twelveDays.rhyme(6));
     }
 
+    /**
+     * @purpose To Check the Expected Rhyme Seven Is Equals to Twelve Days Class Rhyme Method Case 7 Or Not
+     */
     @Ignore("Remove to run test")
     @Test
     public void testRhymeSeven() {
@@ -69,6 +98,9 @@ public class TwelveDaysTest {
         assertEquals(expectedRhymeSeven, twelveDays.rhyme(7));
     }
 
+    /**
+     * @purpose To Check the Expected Rhyme Eight Is Equals to Twelve Days Class Rhyme Method Case 8 Or Not
+     */
     @Ignore("Remove to run test")
     @Test
     public void testRhymeEight() {
@@ -78,6 +110,9 @@ public class TwelveDaysTest {
         assertEquals(expectedRhymeEight, twelveDays.rhyme(8));
     }
 
+    /**
+     * @purpose To Check the Expected Rhyme Nine Is Equals to Twelve Days Class Rhyme Method Case 9 Or Not
+     */
     @Ignore("Remove to run test")
     @Test
     public void testRhymeNine() {
@@ -87,6 +122,9 @@ public class TwelveDaysTest {
         assertEquals(expectedRhymeNine, twelveDays.rhyme(9));
     }
 
+    /**
+     * @purpose To Check the Expected Rhyme Ten Is Equals to Twelve Days Class Rhyme Method Case 10 Or Not
+     */
     @Ignore("Remove to run test")
     @Test
     public void testRhymeTen() {
@@ -97,6 +135,9 @@ public class TwelveDaysTest {
         assertEquals(expectedRhymeTen, twelveDays.rhyme(10));
     }
 
+    /**
+     * @purpose To Check the Expected Rhyme Eleven Is Equals to Twelve Days Class Rhyme Method case 11 Or Not
+     */
     @Ignore("Remove to run test")
     @Test
     public void testRhymeEleven() {
@@ -107,6 +148,9 @@ public class TwelveDaysTest {
         assertEquals(expectedRhymeEleven, twelveDays.rhyme(11));
     }
 
+    /**
+     * @purpose To Check the Expected Rhyme Twelve Is Equals to Twelve Days Class Rhyme Method Case 12 Or Not
+     */
     @Ignore("Remove to run test")
     @Test
     public void testRhymeTwelve() {
@@ -117,6 +161,9 @@ public class TwelveDaysTest {
         assertEquals(expectedRhymeTwelve, twelveDays.rhyme(12));
     }
 
+    /**
+     * @purpose To Check the Expected Whole Song Is Equals to Twelve Days Class Sing Method Or Not
+     */
     @Ignore("Remove to run test")
     @Test
     public void testSingWholeSong() {
